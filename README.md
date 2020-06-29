@@ -54,7 +54,7 @@ struct dmi_header {
 ```
 
 - First, The type data member of size ``BYTE`` or ``uint8_t`` holds the SMBIOS specification defines the DMI Types different types of elements a computer. For example, type 2, means that the record contains 
-  "Base Board" Information. To have a better understand of the Types SMBIOS defines, here's a code representation in file [smbios.h]():
+  "Base Board" Information. To have a better understand of the Types SMBIOS defines, here's a code representation in file [smbios.hpp](https://github.com/medievalghoul/hwid-checker-mg/tree/master/hwid_checker/includes/smbios.hpp):
 
 ```c++
   enum dmi_entry_type
