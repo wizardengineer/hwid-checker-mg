@@ -31,7 +31,7 @@ Also, allocating a ``RawSMBIOSData data struct`` in the heap at runtime gave und
 
 ### DOCUMENTATION
 
-Doc 1:** Table 3 – Structure header format description **
+Doc 1: **Table 3 – Structure header format description**
 
 ```c
 
