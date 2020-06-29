@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/hjxm9hfjwljab2am?svg=true)]
+![Build status](https://ci.appveyor.com/api/projects/status/hjxm9hfjwljab2am?svg=true)
 # hwid-checker-mg
 
 Before I proceed, I would like to give a huge thanks to nealhow_ ([github](https://github.com/nealhow), [twitter](https://twitter.com/nealhow_)) for being a huge help, by 
@@ -31,7 +31,7 @@ Also, allocating a ``RawSMBIOSData data struct`` in the heap at runtime gave und
 
 ### DOCUMENTATION
 
-Doc 1:** Table 3 – Structure header format description **
+Doc 1:** Table 3 â€“ Structure header format description **
 
 ```c
 
@@ -113,7 +113,7 @@ struct dmi_header {
 - Third, the handle data member of size ``WORD`` or ``uint16_t`` is a unique identifier, which allows certain records to reference to each other.
   An example would be memory device referencing to memory conttroller and vice versa.
 
-Doc 2:** Raw SMBIOS firmware table provider**
+Doc 2: **Raw SMBIOS firmware table provider**
 
 ```c++
 #include <windows.h>
