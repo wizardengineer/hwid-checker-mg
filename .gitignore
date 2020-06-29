@@ -1,0 +1,39 @@
+# Compiled Object files
+*.obj
+*.slo
+*.lo
+*.o
+
+# My file
+Holder.txt
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Binaries
+*.exe
+*.dll
+*.lib
+*.ilk
+*.pdb
+
+# Project files
+bin/**
+
+# Visual Studio files
+.vs
+obj/**
+ipch
+*.psess
+*.vspx
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
