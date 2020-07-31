@@ -78,7 +78,6 @@ auto main()
 	RawSMBIOSData* smbios_data     {nullptr};
   BYTE* smbios_data_buffer; //[0x10000] = { 0 }; //0.065536 megabytes
 	smbios_data_buffer = new BYTE[0x10000]; //0.065536 megabytes fails
-	//smbios_data_buffer[0x10000] = { 0 };
 
 	// HW_PROFILE_INFO hw_prof_info won't be needed
 	
@@ -121,25 +120,11 @@ auto main()
 
 	cout << "\tget buffer size is: " << smbios_buffersize << "\n";
 
-	//
-	// Allocates a block of unmovable memory from the heap
-	//
-
 	smbios_data =
 		reinterpret_cast<RawSMBIOSData*> (
-			//HeapAlloc(GetProcessHeap(), 0, smbios_buffersize)
 			smbios_data_buffer
 			);
 
-	/* 
-
-	if (!GetCurrentHwProfile(&hw_prof_info)) {
-		cout << "Error encounters 'GetCurrentHwProfile': "
-			<< GetLastError() << "\n";
-		_getch();
-	}
-
-	*/
 
 	if (smbios_data->Length != smbios_buffersize - 8)
 	{
@@ -220,6 +205,5 @@ auto main()
 
 	_getch();
 	delete [] smbios_data_buffer;
-  //HeapFree(GetProcessHeap, 0, smbios_data);
 	return {};
 }
