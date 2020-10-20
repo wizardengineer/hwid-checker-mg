@@ -172,3 +172,4 @@ Also, allocating a ``RawSMBIOSData data_structure`` in the heap at runtime, gave
 	- https://linux.die.net/man/8/dmidecode  
   
   
+Thanks for the read
