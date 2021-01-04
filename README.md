@@ -23,7 +23,7 @@ I've encountered
 	The use of SMBIOS elimiated the use of having to directly get the hardware's information.
 
 - what is DMI?
-  - Sort for Desktop Management Inerface, is a manager that generates a standard for managing and tracking components of a computer.
+  - Sort for Desktop Management Interface, is a manager that generates a standard for managing and tracking components of a computer.
     By standard it's referring to it being applicable to other OSes.
 
 Evidently, it'll be need to read [System Management BIOS (SMBIOS) Reference Specification Version 3.3.0](https://www.dmtf.org/standards/smbios) to further your understanding on this topic.
