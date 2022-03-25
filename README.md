@@ -3,7 +3,7 @@
 
 Before I proceed, I would like to give a huge thanks to nealhow_ ([github](https://github.com/nealhow), [twitter](https://twitter.com/nealhow_)) for being a huge help, by 
 contributing so much with his knowlegde and skills. Without him and his guidence, this project would've took longer to make. 
-Fun fact, at the time of making this project. I wasn't able to find a single C++ hwid checker
+Fun fact, at the time of making this project I wasn't able to find a single C++ hwid checker
 
 ### INTRODUCTION 
 
